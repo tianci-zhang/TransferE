@@ -1,7 +1,7 @@
 # basic-TrmE
 
 #### 代码说明
-basic-TrmE代码用于进行链接预测和关系预测任务。
+basic-TrmE代码用于进行关系预测任务。
 
 三元组分类任务需要先做预测任务之后，再fine-tuning。在模型encoder之后加不同的线性层和softmax层，额外进行该实验。
 
